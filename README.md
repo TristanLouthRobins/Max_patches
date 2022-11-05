@@ -27,3 +27,15 @@ A Max patch naively emulating the computer process of David Behrman's *On The Ot
 Read about the inspiration behind the patch on my blog here: https://tristanlouthrobins.wordpress.com/2019/08/26/communique-3-wild-is-the-wind/
 
 Demonstration of patch: https://www.youtube.com/watch?v=SeZE_50RPCY
+
+### **outdoor furniture music (2022)** - version 1.0, 2022
+
+Inspired by this Disquiet Junto prompt: https://llllllll.co/t/disquiet-junto-project-0566-outdoor-furniture-music/59371/16
+
+A crude tone generator with its sequence of notes (based on a Bb Maj7 chord) determined by a Markov Chain algorithm. Uses Ben Smith's awesome `ml.markov` object. 
+
+![Screen Shot 2022-11-05 at 3 00 58 pm](https://user-images.githubusercontent.com/62044678/200106367-bcc8d988-e0f9-4fee-8fa2-07568b7db106.png)
+
+The final result (for the Junto prompt) took the Max output and routed it through Morphagene and DLD modules. A Soundcloud link to the audio is here: https://soundcloud.com/red_robin/disquiet_junto_0562-outdoor-furniture-music-made-with-max-a-markov-chain-and-morphagene
+
+A video documenting the audio ported into a battery powered mp3 player and deployed in my courtyard can be found here: https://www.youtube.com/watch?v=hTUc7C0mCrE
