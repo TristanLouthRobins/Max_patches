@@ -22,6 +22,51 @@ This project also incorporated an engineered prompt (ModalPilot v1 - `modalpilot
 #### Graph design:
 ![unnamed](https://github.com/user-attachments/assets/f8aea4bc-d5c6-4051-804d-9ee48b26b7c7)
 
+#### Engineered prompt (ModalPilot v1) applied to generate modal scales for each chord:
+```
+##### User input:
+C# major 7th, A# minor. These chords will repeat themselves, but please suggest a couple of passing chords - maybe additional minor chords - which would work in a coherent chord progression.
+
+##### Response #1:
+For the progression starting with C#maj7 and A#m, you can use the following passing chords for a smooth and coherent sound:
+
+###### Recommended Chord Progression:
+
+	•	C#maj7
+	•	F#7 (passing chord)
+	•	A#m
+	•	D#m7 (passing chord)
+
+###### Associated Scales for Improvisation:
+
+	•	C# Ionian (Major) Scale: For the C#maj7 chord.
+	•	F# Mixolydian Scale: Over the F#7 passing chord.
+	•	A# Aeolian (Natural Minor) Scale: For the A#m chord.
+	•	D# Dorian Scale: Over the D#m7 passing chord.
+
+These passing chords create a smooth transition and maintain coherence in the key of C#. Enjoy your improvisation!
+
+##### User input #2:
+Can you substitute the F#7 for something a little more mellow and open? Perhaps a 9th, 11th or extended 13th chord instead?
+
+##### Response #2:
+Sure! Here's an alternative with a more mellow passing chord:
+
+###### Updated Chord Progression:
+- **C#maj7**
+- **F#maj9** (passing chord)
+- **A#m**
+- **D#m11** (passing chord)
+
+###### Associated Scales for Improvisation:
+- **C# Ionian (Major) Scale**: For the C#maj7 chord.
+- **F# Lydian Scale**: Over the F#maj9 passing chord.
+- **A# Aeolian (Natural Minor) Scale**: For the A#m chord.
+- **D# Dorian Scale**: Over the D#m11 passing chord.
+
+These chords offer a smoother and more open sound. Enjoy playing around with them!
+```
+
 
 #### Scale generation initialisation matrix:
 |       | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
