@@ -10,19 +10,7 @@ This project also incorporated an engineered prompt (ModalPilot v1 - `modalpilot
 
 ![unnamed](https://github.com/user-attachments/assets/da6a9545-5f9c-4da5-ac2d-d941404cd8c6)
 
-#### Chord generation initialisation matrix:
-|            | C#^7 | A#m | F#^9 | D#m11 | Silent |
-| ---------- | ---- | --- | ---- | ----- | ------ |
-| **C#^7**   | 0    | 0.8 | 0    | 0.1   | 0.1    |
-| **A#m**    | 0.7  | 0   | 0.3  | 0     | 0      |
-| **F#^9**   | 0    | 0.5 | 0    | 0     | 0.5    |
-| **D#m11**  | 0    | 0   | 0.3  | 0     | 0.7    |
-| **Silent** | 0.8  | 0   | 0    | 0     | 0.2    |
-
-#### Graph design:
-![unnamed](https://github.com/user-attachments/assets/f8aea4bc-d5c6-4051-804d-9ee48b26b7c7)
-
-#### Engineered prompt (ModalPilot v1) applied to generate modal scales for each chord:
+#### Engineered prompt (ModalPilot v1) applied to generate extended chords and modal scales for each chord:
 ```
 User input:
 C# major 7th, A# minor. These chords will repeat themselves, but please suggest a couple of passing chords - maybe additional minor chords - which would work in a coherent chord progression.
@@ -107,6 +95,17 @@ D#m11
 - **G#**
 ```
 
+#### Chord generation initialisation matrix:
+|            | C#^7 | A#m | F#^9 | D#m11 | Silent |
+| ---------- | ---- | --- | ---- | ----- | ------ |
+| **C#^7**   | 0    | 0.8 | 0    | 0.1   | 0.1    |
+| **A#m**    | 0.7  | 0   | 0.3  | 0     | 0      |
+| **F#^9**   | 0    | 0.5 | 0    | 0     | 0.5    |
+| **D#m11**  | 0    | 0   | 0.3  | 0     | 0.7    |
+| **Silent** | 0.8  | 0   | 0    | 0     | 0.2    |
+
+#### Graph design:
+![unnamed](https://github.com/user-attachments/assets/f8aea4bc-d5c6-4051-804d-9ee48b26b7c7)
 
 #### Scale generation initialisation matrix:
 |       | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
