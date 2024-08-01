@@ -24,20 +24,20 @@ This project also incorporated an engineered prompt (ModalPilot v1 - `modalpilot
 
 #### Engineered prompt (ModalPilot v1) applied to generate modal scales for each chord:
 ```
-##### User input:
+User input:
 C# major 7th, A# minor. These chords will repeat themselves, but please suggest a couple of passing chords - maybe additional minor chords - which would work in a coherent chord progression.
 
-##### Response #1:
+Response #1:
 For the progression starting with C#maj7 and A#m, you can use the following passing chords for a smooth and coherent sound:
 
-###### Recommended Chord Progression:
+Recommended Chord Progression:
 
 	•	C#maj7
 	•	F#7 (passing chord)
 	•	A#m
 	•	D#m7 (passing chord)
 
-###### Associated Scales for Improvisation:
+Associated Scales for Improvisation:
 
 	•	C# Ionian (Major) Scale: For the C#maj7 chord.
 	•	F# Mixolydian Scale: Over the F#7 passing chord.
@@ -46,25 +46,65 @@ For the progression starting with C#maj7 and A#m, you can use the following pass
 
 These passing chords create a smooth transition and maintain coherence in the key of C#. Enjoy your improvisation!
 
-##### User input #2:
+User input #2:
 Can you substitute the F#7 for something a little more mellow and open? Perhaps a 9th, 11th or extended 13th chord instead?
 
-##### Response #2:
+Response #2:
 Sure! Here's an alternative with a more mellow passing chord:
 
-###### Updated Chord Progression:
+Updated Chord Progression:
 - **C#maj7**
 - **F#maj9** (passing chord)
 - **A#m**
 - **D#m11** (passing chord)
 
-###### Associated Scales for Improvisation:
+Associated Scales for Improvisation:
 - **C# Ionian (Major) Scale**: For the C#maj7 chord.
 - **F# Lydian Scale**: Over the F#maj9 passing chord.
 - **A# Aeolian (Natural Minor) Scale**: For the A#m chord.
 - **D# Dorian Scale**: Over the D#m11 passing chord.
 
 These chords offer a smoother and more open sound. Enjoy playing around with them!
+
+User input #3:
+Can you please list the notes which make up the F#maj9 and D#m11 chords?
+
+Response #3:
+Of course! Here are the notes for each chord:
+
+F#maj9
+- **F#**
+- **A#**
+- **C#**
+- **E# (F)**
+- **G#**
+
+D#m11
+- **D#**
+- **F#**
+- **A#**
+- **C#**
+- **G#**
+
+User input #4:
+Oh, can you please list the notes in the scales that you recommended?
+
+Response #4:
+Of course! Here are the notes for each chord:
+
+F#maj9
+- **F#**
+- **A#**
+- **C#**
+- **E# (F)**
+- **G#**
+
+D#m11
+- **D#**
+- **F#**
+- **A#**
+- **C#**
+- **G#**
 ```
 
 
